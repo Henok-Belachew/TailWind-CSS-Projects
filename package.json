@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build ./src/syles.css -o tailwind.css"
+    "build-css": "npx tailwindcss-cli build -i src/input.css -o tailwind.css -w"
   },
   "repository": {
     "type": "git",
