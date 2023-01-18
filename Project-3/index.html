@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Profile Card</title>
-	<link rel="stylesheet" href="../tailwind.css">
+	<link rel="stylesheet" href="../styles.css">
 	<style>
 
 		@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@700&family=Source+Sans+Pro:wght@300&display=swap');
@@ -48,29 +48,29 @@
 <body class="relative w-screen h-screen" style="color: hsl(229, 23%, 23%); font-family: 'Kumbh Sans', sans-serif;">
 
 	<!-- Main Section -->
-	<div class="container absolute z-10 left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 shadow-2xl bg-white outline-none  rounded-2xl">
+	<div class="container absolute z-10 transform -translate-x-1/2 -translate-y-1/2 bg-white shadow-2xl outline-none left-1/2 top-1/2 rounded-2xl">
 
 		<!-- Haeder Image Background -->
 		<img class="rounded-t-2xl" src="./images/bg-pattern-card.svg" alt="">
 
 
 		<!-- Lower Section -->
-		<div class="flex flex-col justify-around  outline-none  h-4/6 ">
+		<div class="flex flex-col justify-around outline-none h-4/6 ">
 
 
 
 					<!-- Lower Upper Section -->
-					<div class=" m-0 p-0  w-full flex flex-col items-center justify-between">
+					<div class="flex flex-col items-center justify-between w-full p-0 m-0 ">
 
 							<img src="./images/image-victor.jpg" style="border: white solid 5px;" class="rounded-full -mt-14" alt="">
 
 							<div class="flex flex-col items-center w-11/12 ">
 
-								<div  class="flex mt-3 justify-between" style="width: 37%;">
+								<div  class="flex justify-between mt-3" style="width: 37%;">
 									<h1 style="font-weight: 700; font-size: 18px">Vitor Crest</h1>
 									<span class="opacity-50">26</span>
 								</div>
-								<span class="text-sm opacity-50  mt-1">London</span>
+								<span class="mt-1 text-sm opacity-50">London</span>
 							</div>
 
 					</div>
@@ -79,12 +79,12 @@
 
 
 					<!-- Lower Lower Section -->
-					<div class=" w-full h-full flex flex-col  mt-5 items-center ">
+					<div class="flex flex-col items-center w-full h-full mt-5 ">
 
 							<!-- Horizontal Line Separator -->
 							<hr class="border-none h-0.5 opacity-20 w-full -mt-1" style= "background: hsl(227, 10%, 46%);">
 
-							<div class="data flex justify-between absolute bottom-8 outline-none" style="width: 60%">
+							<div class="absolute flex justify-between outline-none data bottom-8" style="width: 60%">
 								<div>
 									<span class="num">80K</span>
 									<span class="text-xs opacity-50">Followers</span>
@@ -106,7 +106,7 @@
 
 		<!-- Background Images -->
 	<img id="top" src="./images/bg-pattern-top.svg" class= "absolute z-1" alt="">
-	<img id="bottom" src="./images/bg-pattern-bottom.svg" class="z-2 absolute" alt="">
+	<img id="bottom" src="./images/bg-pattern-bottom.svg" class="absolute z-2" alt="">
 
 	
 

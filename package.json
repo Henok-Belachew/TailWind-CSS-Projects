@@ -4,20 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "npx tailwindcss-cli build -i src/input.css -o tailwind.css -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Henok-Belachew/TailWind-CSS-Projects.git"
   },
   "keywords": [],
-  "author": "Henok Belachew",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Henok-Belachew/TailWind-CSS-Projects/issues"
   },
   "homepage": "https://github.com/Henok-Belachew/TailWind-CSS-Projects#readme",
-  "dependencies": {
-    "tailwindcss": "^3.2.1"
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
   }
 }

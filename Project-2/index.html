@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Project 2</title>
-	<link rel="stylesheet" href="../tailwind.css">
+	<link rel="stylesheet" href="../styles.css">
 </head>
 <style>
 
@@ -20,70 +20,70 @@
 </style>
 
 
-<body class="flex justify-center items-center" style="background-color:  hsl(210, 46%, 95%); width: 100vw; height: 100vh;" >
-	<section class="container border-blue-700 text-white  flex items-center justify-center">
+<body class="flex items-center justify-center" style="background-color:  hsl(210, 46%, 95%); width: 100vw; height: 100vh;" >
+	<section class="container flex items-center justify-center text-white border-blue-700">
 
-		<div class=" grid grid-cols-4 grid-rows-2 mx-10 h-full" style="width: 90%;">
+		<div class="grid h-full grid-cols-4 grid-rows-2 mx-10 " style="width: 90%;">
 
 			<!-- Testimonial-1 -->
-			<div style="background-color: hsl(263, 55%, 52%);" class="box shadow-lg col-start-1 col-end-3 bg-red-500 relative">
+			<div style="background-color: hsl(263, 55%, 52%);" class="relative col-start-1 col-end-3 bg-red-500 shadow-lg box">
 				
-				<div class="author flex w-1/2 items-center -mt-3">
-					<img class="rounded-full mr-3 w-10 h-10 border-4" src="./images/image-daniel.jpg" alt="">
+				<div class="flex items-center w-1/2 -mt-3 author">
+					<img class="w-10 h-10 mr-3 border-4 rounded-full" src="./images/image-daniel.jpg" alt="">
 					<div>
-						<h3 class="font-bold text-sm">Daniel Clifford</h3>
+						<h3 class="text-sm font-bold">Daniel Clifford</h3>
 						<p class="text-xs opacity-60">Verified Graduate</p>
 					</div>
 				</div>
 				
-				<p class="font-bold my-4 leading-5 relative z-10">  I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+				<p class="relative z-10 my-4 font-bold leading-5">  I received a job offer mid-course, and the subjects I learned were current, if not more so, 
 					in the company I joined. I honestly feel I got every penny’s worth.
 				</p>
 
-				<p class="text-xs leading-4 font-semibold opacity-60">  “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+				<p class="text-xs font-semibold leading-4 opacity-60">  “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
 					transition and have heard some people who had an amazing experience here. I signed up 
 					for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
 					The next 12 weeks was the best - and most grueling - time of my life. Since completing 
 					the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. 
 				</p>
 
-				<img src="./images/bg-pattern-quotation.svg" class="opacity-60 absolute top-5 right-12 z-0" alt="">
+				<img src="./images/bg-pattern-quotation.svg" class="absolute z-0 opacity-60 top-5 right-12" alt="">
 				
 			</div>
 
 			<!-- Testimonial-2 -->
-			<div class="box col-start-3 shadow-lg" style="background-color: hsl(217, 19%, 35%);">
-				<div class="author flex items-center -mt-3">
-					<img class="rounded-full mr-3 w-10 h-10 border-4" src="./images/image-jonathan.jpg" alt="">
+			<div class="col-start-3 shadow-lg box" style="background-color: hsl(217, 19%, 35%);">
+				<div class="flex items-center -mt-3 author">
+					<img class="w-10 h-10 mr-3 border-4 rounded-full" src="./images/image-jonathan.jpg" alt="">
 					<div>
-						<h3 class="font-bold text-sm">Jonathan Walters</h3>
+						<h3 class="text-sm font-bold">Jonathan Walters</h3>
 						<p class="text-xs opacity-60">Verified Graduate</p>
 					</div>
 				</div>
 				
-				<p class="font-bold my-4 leading-5">  The team was very supportive and kept me motivated
+				<p class="my-4 font-bold leading-5">  The team was very supportive and kept me motivated
 				</p>
 
-				<p class="text-xs leading-4 font-semibold opacity-60">   “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+				<p class="text-xs font-semibold leading-4 opacity-60">   “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
 					for a big company. This was one of the best investments I’ve made in myself. ”
 				</p>
 			</div>
 
 			<!-- Testimonial-3 -->
-			<div class="box row-start-1 row-end-3 col-start-4 text-black shadow-lg" style="background-color: white;">
+			<div class="col-start-4 row-start-1 row-end-3 text-black shadow-lg box" style="background-color: white;">
 
-				<div class="author flex w-full items-center -mt-3 ">
-					<img class="rounded-full mr-3 w-10 h-10 border-4" src="./images/image-kira.jpg" alt="">
+				<div class="flex items-center w-full -mt-3 author ">
+					<img class="w-10 h-10 mr-3 border-4 rounded-full" src="./images/image-kira.jpg" alt="">
 					<div>
-						<h3 class="font-bold text-sm">Kira Whittle</h3>
+						<h3 class="text-sm font-bold">Kira Whittle</h3>
 						<p class="text-xs opacity-60">Verified Graduate</p>
 					</div>
 				</div>
 				
-				<p class="font-bold my-4 leading-5">    Such a life-changing experience. Highly recommended!
+				<p class="my-4 font-bold leading-5">    Such a life-changing experience. Highly recommended!
 				</p>
 
-				<p class="text-xs leading-4 font-semibold opacity-60">    “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+				<p class="text-xs font-semibold leading-4 opacity-60">    “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
 					professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
 					student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
 					did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
@@ -95,38 +95,38 @@
 			</div>
 
 			<!-- Testimonial-4 -->
-			<div class="box text-black shadow-lg" style="background-color: white;">
-				<div class="author flex items-center -mt-3">
-					<img class="rounded-full mr-3 w-10 h-10 border-4" src="./images/image-jeanette.jpg" alt="">
+			<div class="text-black shadow-lg box" style="background-color: white;">
+				<div class="flex items-center -mt-3 author">
+					<img class="w-10 h-10 mr-3 border-4 rounded-full" src="./images/image-jeanette.jpg" alt="">
 					<div>
-						<h3 class="font-bold text-sm">Jeanette Harmon</h3>
+						<h3 class="text-sm font-bold">Jeanette Harmon</h3>
 						<p class="text-xs opacity-60">Verified Graduate</p>
 					</div>
 				</div>
 				
-				<p class="font-bold my-4 leading-5">  An overall wonderful and rewarding experience
+				<p class="my-4 font-bold leading-5">  An overall wonderful and rewarding experience
 				</p>
 
-				<p class="text-xs leading-4 font-semibold opacity-60">  “Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+				<p class="text-xs font-semibold leading-4 opacity-60">  “Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
 					while doing something I love. ”
 				</p>
 			</div>
 
 			<!-- Testimonial-5 -->
-			<div class="box col-start-2 shadow-lg col-end-4 row-start-2" style="background-color: hsl(219, 29%, 14%);">
-				<div class="author flex items-center -mt-3">
-					<img class="rounded-full mr-3 w-10 h-10 border-4" src="./images/image-patrick.jpg" alt="">
+			<div class="col-start-2 col-end-4 row-start-2 shadow-lg box" style="background-color: hsl(219, 29%, 14%);">
+				<div class="flex items-center -mt-3 author">
+					<img class="w-10 h-10 mr-3 border-4 rounded-full" src="./images/image-patrick.jpg" alt="">
 					<div>
-						<h3 class="font-bold text-sm">Patrick Abrams</h3>
+						<h3 class="text-sm font-bold">Patrick Abrams</h3>
 						<p class="text-xs opacity-60">Verified Graduate</p>
 					</div>
 				</div>
 				
-				<p class="font-bold my-4 leading-5">  Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+				<p class="my-4 font-bold leading-5">  Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
 					learning from their experiences was easy.
 				</p>
 
-				<p class="text-xs leading-4 font-semibold opacity-60">    “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+				<p class="text-xs font-semibold leading-4 opacity-60">    “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
 					gave me the confidence necessary to be able to go out in the world and present myself as a capable 
 					junior developer. The standard is above the rest. You will get the personal attention you need from 
 					an incredible community of smart and amazing people. ”

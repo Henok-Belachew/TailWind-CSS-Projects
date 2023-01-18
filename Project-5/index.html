@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Stats Preview </title>
-	<link rel="stylesheet" href="../tailwind.css">
+	<link rel="stylesheet" href="../styles.css">
 </head>
 <style>
 
@@ -21,16 +21,16 @@
 	}
 </style>
 <body class="w-screen h-screen ">
-	<div class="container absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-9/12 h-4/6 rounded-lg flex justify-between" style="background-color: hsl(244, 38%, 16%);">
+	<div class="container absolute flex justify-between w-9/12 transform -translate-x-1/2 -translate-y-1/2 rounded-lg top-1/2 left-1/2 h-4/6" style="background-color: hsl(244, 38%, 16%);">
 
 		<!-- Text Section -->
-		<div class="w-1/2 flex justify-between  h- flex-col text-white p-20">
+		<div class="flex flex-col justify-between w-1/2 p-20 text-white h-">
 			<h1 class="text-3xl font-bold">Get <span style="color: #a95ad7;">insights</span> that help your business grow.</h1>
 			<p class="text-sm opacity-60">  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
 				experience, and overall efficiency.
 			</p>
 
-			<div class="data flex justify-between ">
+			<div class="flex justify-between data ">
 				<div>
 					<span class="num">10K+</span>
 					<span class="text-xs opacity-50">COMPANIES</span>
@@ -48,9 +48,9 @@
 		</div>
 
 		<!-- Image Section -->
-		<div class="image relative rounded-r-lg">
-			<div class="z-10 absolute opacity-60 w-full h-full rounded-r-lg" style="background-color: #a95ad7;"></div>
-			<img src="./images/image-header-desktop.jpg" class="h-full relative z-0 rounded-r-lg" style="" alt="">
+		<div class="relative rounded-r-lg image">
+			<div class="absolute z-10 w-full h-full rounded-r-lg opacity-60" style="background-color: #a95ad7;"></div>
+			<img src="./images/image-header-desktop.jpg" class="relative z-0 h-full rounded-r-lg" style="" alt="">
 		</div>
 
 	</div>
