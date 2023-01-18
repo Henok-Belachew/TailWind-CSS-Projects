@@ -1,8 +1,0 @@
-Step 1: Install Tailwindcss Package
-=> npm install -D tailwindcss
-Step 2: Initailize your tailwind config file.
-=> npx tailwindcss init
-Step 3: Update the content section of your tailwind config file with the location or path
-of the html files that contain tailwind css class names.
-Step 4: Prepare a starting or input css file (input.css)
-Step 5: Run: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
